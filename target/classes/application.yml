@@ -1,6 +1,8 @@
 management.endpoints.web.exposure.include: "*"
 spring.profiles.active: dev
 
+#En mi caso funciono poniendo la url de la base de datos h2 como -> jdbc:h2:mem:mydb
+
 spring:
   mvc:
       pathmatch:
